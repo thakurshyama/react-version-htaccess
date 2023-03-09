@@ -1,0 +1,126 @@
+.dashboard-main-div {
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-div-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.dashboard-div {
+  display: grid;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.cancel {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  gap: 7rem;
+  width: 300px;
+  height: 100px;
+  color: white;
+  background-color: #f50202;
+}
+
+.pending {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  gap: 7rem;
+  width: 300px;
+  height: 100px;
+  color: white;
+  background-color: #796ee9;
+}
+
+.process {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  gap: 7rem;
+  width: 300px;
+  color: white;
+  height: 100px;
+  background-color: #26b2df;
+}
+
+.income {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  gap: 7rem;
+  width: 300px;
+  color: white;
+  height: 100px;
+  background-color: #24c924;
+}
+
+.Table-dashboard {
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-dash {
+  margin-top: 20px;
+  width: 100%;
+  line-height: 40px;
+}
+.th-dash {
+  text-align: center;
+}
+
+.td-dash {
+  text-align: center;
+  padding: 6px 0px;
+}
+table th {
+  padding: 5px 15px;
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-steps {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  display: flex;
+  width: 70%;
+  text-align: initial;
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-steps .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: #6e6b7b;
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-steps .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: #6e6b7b;
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-steps .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: #6e6b7b;
+}
+
+.dashboard-graphs{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

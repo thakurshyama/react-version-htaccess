@@ -1,0 +1,96 @@
+.Table {
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  margin-top: 20px;
+  /* border: 0.2px solid grey; */
+  width: 100%;
+  line-height: 40px;
+}
+
+/* th {
+  border-bottom: 0.2px solid rgb(63, 62, 62);
+  text-align: center;
+} */
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  /* background-color: #04AA6D; */
+  background-color: #2BB380;
+  color: white;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td {
+  text-align: center;
+  /* padding: 6px 0px; */
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+  /* border-bottom: 0.2px solid rgb(167 161 161); */
+}
+
+.modal-button:hover{
+  cursor: pointer;
+  font-size: 16px;
+  color: #2BB380;
+}
+.userinfo:hover {
+  cursor: pointer;
+  font-size: 16px;
+  color: #2BB380;
+}
+:where(.css-dev-only-do-not-override-ixblex).ant-btn-default {
+  background-color: #ffffff;
+  border-color: #d9d9d9;
+  visibility: hidden;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+}
+.anticon {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  visibility: hidden;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:where(.css-dev-only-do-not-override-ixblex).ant-btn-primary {
+  color: #fff;
+  background-color: #2BB380;
+  box-shadow: 0 2px 0 rgb(5 145 255 / 10%);
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-modal .ant-modal-content {
+  position: relative;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0;
+  font-family: sans-serif;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgb(0 0 0 / 8%), 0 3px 6px -4px rgb(0 0 0 / 12%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+  pointer-events: auto;
+  padding: 20px 24px;
+}
+
+.ant-modal-title{
+  color:#2BB380;
+}
+
+.modal-button{
+  border: none;
+}
+:where(.css-dev-only-do-not-override-ixblex).ant-btn-primary:not(:disabled):hover {
+  color: #fff;
+  background-color: #2BB380;
+}

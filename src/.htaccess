@@ -1,0 +1,8 @@
+# Cache static assets for one week
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresDefault "access plus 1 week"
+</IfModule>
+
+ # Redirect from old URL to new URL
+Redirect 301 /old-page /new-page

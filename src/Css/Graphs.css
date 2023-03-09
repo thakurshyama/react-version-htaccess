@@ -1,0 +1,15 @@
+.graphs{
+    /* text-align: center; */
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Graphs-style {
+    width: 1275px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: default;
+}
